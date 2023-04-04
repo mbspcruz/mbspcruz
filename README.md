@@ -1,5 +1,26 @@
 ### Hi there 👋
 
+I'm Mariana, a creative developer in the making.
+
+Using mainly React in my websites I also enjoy creating 3D models in Blender to later give that litlle ✨something✨ to the user experience.
+
+<br />
+
+Here's where you can reach me:
+
+✉️ mbspcruz@gmail.com
+
+🖥️ https://mda-cruz.com/
+
+
+<br />
+Checkout my latest projects 🐤
+
+<br />
+<br />
+<br />
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mbspcruz&layout=compact&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **mbspcruz/mbspcruz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
