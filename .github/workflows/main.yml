@@ -18,6 +18,10 @@ jobs:
           svg_out_path: dist/github-contribution-grid-snake.svg
 
         # Set PR_NUMBER environment variable
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           PR_NUMBER: ${{ github.event.number }}
 
@@ -28,10 +32,3 @@ jobs:
             -X POST \
             -d '{"assignees": ["mbspcruz"]}' \
             https://api.github.com/repos/${GITHUB_REPOSITORY}/issues/${PR_NUMBER}/assignees
-
-      # Publish to GitHub Pages
-      - name: Publish to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-          target_branch: output
-          build_dir: dist
